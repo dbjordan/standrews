@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="contact">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -11,7 +11,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import $ from 'jquery'
 
 export default {
-  name: 'Home',
+  name: 'Contact',
   components: {
     HelloWorld
   }
@@ -20,7 +20,7 @@ export default {
 
 
 $(document).ready(function(){
-  $('#home').addClass('active');
+  $('#contact').addClass('active');
 });
 
 

@@ -11,7 +11,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import $ from 'jquery'
 
 export default {
-  name: 'Home',
+  name: 'News',
   components: {
     HelloWorld
   }
@@ -20,7 +20,7 @@ export default {
 
 
 $(document).ready(function(){
-  $('#home').addClass('active');
+  $('#news').addClass('active');
 });
 
 
